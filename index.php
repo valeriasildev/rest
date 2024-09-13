@@ -1,3 +1,4 @@
+<?php get_header(); ?>
 		<section class="container">
 			<h2 class="subtitulo">Menu da Semana</h2>
 
@@ -56,18 +57,4 @@
 			</div>
 
 		</section>
-
-		<footer>
-			<nav class="nav-footer">
-				<ul>
-					<li class="current_page_item"><a href="index.html">Menu</a></li>
-					<li><a href="sobre.html">Sobre</a></li>
-					<li><a href="contato.html">Contato</a></li>
-				</ul>
-			</nav>
-
-			<p>Rest © 2015. Alguns direitos reservados.</p>
-		</footer>
-
-	</body>
-</html>
+		<?php get_footer(); ?>
